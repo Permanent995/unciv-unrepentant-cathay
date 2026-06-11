@@ -1,4 +1,4 @@
-# 无悔华夏 · Eternal Cathay
+# 无悔华夏 · Unrependent Cathay
 
 > 一个 [Unciv](https://github.com/yairm210/Unciv) 扩展模组，以中国古代王朝为主题的文明包。**非专业历史考据，仅供游戏娱乐。**
 
