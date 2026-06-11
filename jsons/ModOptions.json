@@ -1,1 +1,15 @@
-{"modUrl":,"modSize":,"topics":[]}
+{
+    "modUrl": "https://github.com/Permanent995/unciv-unrepentant-cathay",
+    "defaultBranch": "main",
+    "author": "Permanent995",
+    "lastUpdated": "2026-06-11T00:00:00Z",
+    "modSize": 6212,
+    "topics": [
+        "unciv-mod",
+        "unciv-mod-rulesets",
+        "unciv-mod-expansions"
+    ],
+    "uniques": [
+        "Mod requires [Unciv] version [4.16] or later"
+    ]
+}
