@@ -1,0 +1,76 @@
+
+game.png
+size: 1024, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/统一度量衡
+  rotate: false
+  xy: 268, 198
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/郡县制
+  rotate: false
+  xy: 476, 308
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/学宫
+  rotate: false
+  xy: 873, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/矿洞
+  rotate: false
+  xy: 268, 406
+  size: 200, 102
+  orig: 200, 102
+  offset: 0, 0
+  index: -1
+NationIcons/Qindynasty
+  rotate: false
+  xy: 4, 44
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Bronze
+  rotate: false
+  xy: 684, 327
+  size: 181, 181
+  orig: 181, 181
+  offset: 0, 0
+  index: -1
+ResourceIcons/Jade
+  rotate: false
+  xy: 476, 119
+  size: 181, 181
+  orig: 181, 181
+  offset: 0, 0
+  index: -1
+UnitIcons/秦强弩
+  rotate: false
+  xy: 212, 9
+  size: 181, 181
+  orig: 181, 181
+  offset: 0, 0
+  index: -1
+UnitIcons/秦武卒
+  rotate: false
+  xy: 4, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/军功授爵
+  rotate: false
+  xy: 4, 252
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
