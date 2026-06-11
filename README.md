@@ -1,6 +1,6 @@
-# 无悔华夏 · Unrependent Cathay
+# 无悔华夏 · Unrepentant Cathay
 
-> 一个 [Unciv](https://github.com/yairm210/Unciv) 扩展模组，以中国古代王朝为主题的文明包。**非专业历史考据，仅供游戏娱乐。**
+> 一个 [Unciv](https://github.com/yairm210/Unciv) 扩展模组，以中国古代王朝为主题的文明包,目前已有秦朝，计划开发唐朝，宋朝。**非专业历史考据，仅供游戏娱乐。**
 
 [![Unciv](https://img.shields.io/badge/Unciv-4.16-blue)](https://github.com/yairm210/Unciv)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
