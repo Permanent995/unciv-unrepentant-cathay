@@ -1,0 +1,40 @@
+[
+	{
+    "name": "Bronze",
+    "resourceType": "Strategic",
+    "revealedBy": "Bronze Working",
+    "terrainsCanBeFoundOn": ["Hill"],
+    "production": 1,
+    "improvement": "Mine",
+    "uniques": [
+        "[+1 Production] <for [Qindynasty] Civilizations>",
+        "Generated with weight [35] <in [Hill] tiles>",
+        "Generated with weight [25] <in [{Grassland} {Hill}] tiles>",
+        "Generated with weight [20] <in [{Plains} {Hill}] tiles>",
+        "Generated with weight [15] <in [{Desert} {Hill}] tiles>",
+        "Minor deposits generated with weight [40] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
+        "Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles> <in [Fresh Water] tiles>"
+    ]
+},
+{
+    "name": "Jade",
+    "resourceType": "Luxury",
+    "terrainsCanBeFoundOn": ["Hill", "Grassland", "Plains", "Desert"],
+    "happiness": 2,
+    "gold": 2,
+    "improvement": "Mine",
+    "uniques": [
+        "[+2 Culture] <for [Qindynasty] Civilizations>",
+        "Generated with weight [45] <in [Hill] tiles>",
+        "Generated with weight [35] <in [{Grassland} {Hill}] tiles>",
+        "Generated with weight [30] <in [{Plains} {Hill}] tiles>",
+        "Generated with weight [25] <in [{Desert} {Hill}] tiles>",
+        "Generated with weight [20] <in [Grassland] Regions>",
+        "Generated with weight [15] <in [Plains] Regions>",
+        "Generated with weight [10] <in [Forest] Regions>",
+        "Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles>",
+        "Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+        "Doesn't generate naturally <in [Tundra] tiles>"
+    ]
+}
+]	

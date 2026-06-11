@@ -1,0 +1,20 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Unciv cache
+*.atlas
+game.png
+
+# Temp files
+*.tmp
+*.bak
+*.zip
