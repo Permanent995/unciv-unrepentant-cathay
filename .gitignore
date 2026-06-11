@@ -10,10 +10,6 @@ desktop.ini
 *.swo
 *~
 
-# Unciv cache
-*.atlas
-game.png
-
 # Temp files
 *.tmp
 *.bak
