@@ -1,0 +1,10 @@
+[
+	{
+		"name": "军功授爵",
+		"uniques": ["[+50]% XP gained from combat"]
+	},
+	{
+		"name": "士子",
+		"uniques": ["Can build [学宫] improvements at a [+50]% rate"]
+	}
+]

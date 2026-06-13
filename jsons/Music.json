@@ -1,0 +1,14 @@
+{
+    "musics": [
+        {
+            "name": "CK3tiandi",
+            "type": "Theme",
+            "weight": 50
+        },
+        {
+            "name": "CK3yuyiqu",
+            "type": "Theme",
+            "weight": 50
+        }
+    ]
+}

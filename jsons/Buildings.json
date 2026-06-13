@@ -1,0 +1,30 @@
+[
+	{
+		"name": "郡县制",
+		"replaces": "Courthouse",
+		"uniqueTo": "Qindynasty",
+		"cityStrength": 4,
+		"cityHealth": 60,
+		"cost": 100,
+		"maintenance": 5,
+		"culture": 5,
+		"food": 3,
+		"happiness": 1,
+		"faith": 2,
+		"hurryCostModifier": 50,
+		"uniques": [ "Removes extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>", "Unsellable", "[+2 Happiness] per [5] population [in this city]"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "统一度量衡",
+		"uniqueTo": "Qindynasty",
+		"maintenance": 0,
+		"gold": 5,
+		"happiness": 2,
+		"culture": 2,
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": [ "Destroyed when the city is captured", "[+1 Gold] per [2] population [in this city]", "Can build [all] improvements at a [+25]% rate"],
+		"requiredTech": "Agriculture"
+	}
+]
