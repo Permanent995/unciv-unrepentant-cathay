@@ -3,21 +3,25 @@
 		"name": "学宫",
 		"uniqueTo": "Qindynasty",
 		"terrainsCanBeBuiltOn": [ "Plains" ],
-		"culture": 2,
-		"science": 3,
-		"turnsToBuild": 5,
+		"culture": 3,
+		"science": 4,
+		"turnsToBuild": 6,
 		"techRequired": "Masonry",
-		"uniques": [ "[+2 Food] for each adjacent [Farm]" ]
+		"uniques": [ "[+2 Food] for each adjacent [Farm]", 
+		"Provides [1] [scholar]",
+		"Cannot be built on [Luxury resource] tiles" ]
 	},
 	{
 		"name": "矿洞",
 		"uniqueTo": "Qindynasty",
 		"terrainsCanBeBuiltOn": [ "Desert" ],
-		"gold": 3,
+		"gold": 2,
 		"production": 3,
 		"turnsToBuild": 6,
 		"techRequired": "Mathematics",
-		"uniques": [ "Cannot be built on [Luxury resource] tiles", "[+1 Gold] <after discovering [Economics]>", "Cannot be built on [Flood plains] tiles" ]
+		"uniques": [ "Cannot be built on [Luxury resource] tiles", 
+		"[+1 Gold] <after discovering [Economics]>", 
+		"Cannot be built on [Flood plains] tiles" ]
 	}
 
 ]

@@ -1,102 +1,27 @@
 [
 	{
-		"name": "焚书坑儒",
-		"text": "为统一思想、巩固统治，丞相李斯进言：'臣请史官非秦记皆烧之。所不去者，医药卜筮种树之书。'此举可杜绝六国遗民以古非今，但恐遭后世非议。",
-		"presentation": "Alert",
-		"uniques": [
-			"Only available <for [Qindynasty] Civilizations> <when number of [turns] is more than [30]>",
-			"Unavailable <if tutorial [焚书坑儒] is completed>"
-		],
-		"choices": [
-			{
-				"text": "焚书坑儒，以法为教，以吏为师",
-				"uniques": [
-					"Mark tutorial [焚书坑儒] complete",
-					"Gain [4] [Happiness]",
-					"Gain [50] [Culture]",
-					"Gain [1] [Production]"
-				]
-			},
-			{
-				"text": "兼容并包，百花齐放，百家争鸣",
-				"uniques": [
-					"Mark tutorial [焚书坑儒] complete",
-					"Gain [2] [Science]",
-					"Free [Great Scientist] appears"
-				]
-			}
-		]
-	},
-	{
-		"name": "修筑长城",
-		"text": "蒙恬将军奏报：北方的匈奴屡次南下侵扰边境。他请求征发民夫，在北部边境修筑万里长城，以御胡虏。工程浩大，需耗费大量人力物力。",
-		"presentation": "Alert",
-		"uniques": [
-			"Only available <for [Qindynasty] Civilizations> <when number of [turns] is more than [15]>",
-			"Unavailable <if tutorial [修筑长城] is completed>"
-		],
-		"choices": [
-			{
-				"text": "征发民夫，修筑万里长城",
-				"uniques": [
-					"Mark tutorial [修筑长城] complete",
-					"Comment [Frontier fortifications are reinforced along the border]",
-					"Gain [100] [Gold]",
-					"Gain [2] [Happiness]"
-				]
-			},
-			{
-				"text": "主动出击，以攻为守",
-				"uniques": [
-					"Mark tutorial [修筑长城] complete",
-					"Free [秦武卒] appears"
-				]
-			}
-		]
-	},
-	{
-		"name": "统一度量衡",
-		"text": "商鞅变法以来，各国度量衡制度不一，百姓交易多有不便。统一全国的度量衡标准，将极大促进商业发展，但也可能触动旧贵族利益。",
-		"presentation": "Floating",
-		"uniques": [
-			"Only available <for [Qindynasty] Civilizations> <when number of [turns] is more than [10]>",
-			"Unavailable <if tutorial [统一度量衡] is completed>"
-		],
-		"choices": [
-			{
-				"text": "统一度量衡，车同轨，书同文",
-				"uniques": [
-					"Mark tutorial [统一度量衡] complete",
-					"Gain [3] [Gold]",
-					"Free [Worker] appears"
-				]
-			}
-		]
-	},
-	{
 		"name": "百家争鸣",
 		"text": "自稷下学宫设立以来，诸子百家纷纷著书立说、聚徒讲学，思想界呈现空前繁荣。然各家学说各执一词、互相攻讦，朝中亦有大臣进言统一思想。如今天下学宫遍地、百家争鸣之势已成，陛下当如何应对？",
 		"presentation": "Alert",
 		"uniques": [
-			"Only available <for [Qindynasty] Civilizations> <when number of [turns] is more than [60]>",
+			"Only available <for [Qindynasty] Civilizations> <when above [6] [scholar]>",
 			"Unavailable <if tutorial [百家争鸣] is completed>"
 		],
 		"choices": [
 			{
-				"text": "罢黜百家，独尊法术，以吏为师",
+				"text": "罢黜百家，焚书坑儒",
 				"uniques": [
 					"Mark tutorial [百家争鸣] complete",
-					"Comment [Imperial edict suppresses philosophical schools, standardizing thought]",
-					"Gain [-5] [Culture]",
-					"Gain [10] [Happiness]"
+					"Gain [-45] [Culture]",
+					"Gain [200] [Faith]",
+					"Gain [5] [Happiness]"
 				]
 			},
 			{
 				"text": "百花齐放，兼容并包，任其发展",
 				"uniques": [
 					"Mark tutorial [百家争鸣] complete",
-					"Comment [Philosophical diversity is encouraged across the empire]",
-					"Gain [5] [Culture]",
+					"Gain [35] [Culture]",
 					"Free [Great Scientist] appears"
 				]
 			},
@@ -104,39 +29,12 @@
 				"text": "组织真理大讨论，明辨是非，取其精华",
 				"uniques": [
 					"Mark tutorial [百家争鸣] complete",
-					"Comment [A grand debate is organized to synthesize the best of all schools]",
-					"Gain [1] [Faith]",
+					"Gain [5] [Faith]",
 					"Gain [1] [Production]",
-					"Gain [1] [Science]",
+					"Gain [100] [Science]",
 					"Gain [1] [Culture]",
-					"Gain [-1] [Happiness]"
-				]
-			}
-		]
-	},
-	{
-		"name": "徐福东渡",
-		"text": "方士徐福上书，称东海之中有三神山，名曰蓬莱、方丈、瀛洲，仙人居之。他请求率领童男童女，携带五谷百工，入海求仙药。此举耗费巨大，但若能求得长生不老之药，则大秦可万世永存。",
-		"presentation": "Alert",
-		"uniques": [
-			"Only available <for [Qindynasty] Civilizations> <when number of [turns] is more than [50]> <with [40]% chance> <every [25] turns>"
-		],
-		"choices": [
-			{
-				"text": "资助徐福东渡，寻求长生仙药",
-				"uniques": [
-					"Gain [-200] [Gold]",
-					"Comment [Xu Fu's fleet sets sail for the eastern seas...]",
-					"Gain [5] [Happiness]",
-					"Free [Great Scientist] appears"
-				]
-			},
-			{
-				"text": "方士虚妄，不可轻信，逐出宫去",
-				"uniques": [
-					"Gain [50] [Gold]",
-					"Comment [The alchemist is dismissed from court]",
-					"Gain [1] [Science]"
+					"Gain [-5] [Happiness]",
+					"Free Great Person"
 				]
 			}
 		]

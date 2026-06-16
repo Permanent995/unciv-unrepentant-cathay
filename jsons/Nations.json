@@ -22,10 +22,17 @@
 
 		"afterPeace": "战事已毕，或可共庆太平",
 		"tradeRequest": "朕有一桩交易，且听",
-		"outerColor": [255, 255, 0],   
-		"innerColor": [255, 10, 10],  
+		"outerColor": [255, 255, 0],
+		"innerColor": [255, 10, 10],
 		"uniqueName": "武秦",
-		"uniques": [ "[+3 Science] [in capital]", "[Land] units gain the [军功授爵] promotion", "[Civilian] units gain the [士子] promotion", "[+3 Production] from every [Horses]", "[Great General] is earned [50]% faster" ,"[+1 Production] from every [Iron]"],
+		"uniques": [
+			"[Military] units gain the [军功授爵] promotion",
+			"[Civilian] units gain the [士子] promotion",
+			"[+1 Production] from every [Horses]",
+			"[Great General] is earned [50]% faster",
+			"[+1 Production] from every [Iron]",
+			"Triggers a [百家争鸣] event <every [5] turns> <upon turn end> <after turn number [1]>"
+		],
 		"cities": [
 			"咸阳",
 			"临洮",
