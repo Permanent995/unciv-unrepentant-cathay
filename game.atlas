@@ -1,35 +1,98 @@
 
 game.png
-size: 1024, 512
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Fanzhen
+  rotate: false
+  xy: 1460, 334
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/Fanzhen Separatism
+  rotate: false
+  xy: 1460, 334
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/Grand Canal
+  rotate: false
+  xy: 4, 252
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+WonderImages/Grand Canal
+  rotate: false
+  xy: 4, 252
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Wild Goose Pagoda
+  rotate: false
+  xy: 268, 252
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+WonderImages/Great Wild Goose Pagoda
+  rotate: false
+  xy: 268, 252
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Imperial Academy
+  rotate: false
+  xy: 4, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pingfan
+  rotate: false
+  xy: 1195, 116
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 BuildingIcons/统一度量衡
   rotate: false
-  xy: 268, 198
+  xy: 212, 44
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/郡县制
   rotate: false
-  xy: 476, 308
+  xy: 420, 44
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/学宫
   rotate: false
-  xy: 873, 408
+  xy: 1532, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/矿洞
   rotate: false
-  xy: 268, 406
+  xy: 1324, 406
   size: 200, 102
   orig: 200, 102
+  offset: 0, 0
+  index: -1
+NationIcons/Late Tang
+  rotate: false
+  xy: 532, 252
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Qindynasty
@@ -39,51 +102,93 @@ NationIcons/Qindynasty
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/Sheng Tang
+  rotate: false
+  xy: 796, 252
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+PromotionIcons/Imperial Guard
+  rotate: false
+  xy: 1324, 270
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 ResourceIcons/Bronze
   rotate: false
-  xy: 684, 327
+  xy: 628, 63
   size: 181, 181
   orig: 181, 181
   offset: 0, 0
   index: -1
 ResourceIcons/Jade
   rotate: false
-  xy: 212, 9
+  xy: 817, 63
   size: 181, 181
   orig: 181, 181
   offset: 0, 0
   index: -1
+ResourceIcons/Tea
+  rotate: false
+  xy: 44, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 ResourceIcons/scholar
   rotate: false
-  xy: 873, 336
+  xy: 1640, 444
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ResourceIcons/醴
   rotate: false
-  xy: 945, 336
+  xy: 1712, 444
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileIcons/Tea Plantation
+  rotate: false
+  xy: 1532, 336
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/Xuanjia Cavalry
+  rotate: false
+  xy: 84, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 UnitIcons/秦强弩
   rotate: false
-  xy: 401, 9
+  xy: 1006, 63
   size: 181, 181
   orig: 181, 181
   offset: 0, 0
   index: -1
 UnitIcons/秦武卒
   rotate: false
-  xy: 4, 4
+  xy: 124, 4
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+UnitIcons/陆羽
+  rotate: false
+  xy: 1331, 134
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/军功授爵
   rotate: false
-  xy: 4, 252
+  xy: 1060, 252
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
