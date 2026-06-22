@@ -38,5 +38,67 @@
 				]
 			}
 		]
+	},
+	{
+		"name": "Imperial Examination",
+		"text": "科举大典开启！朝廷下诏开科取士，天下才俊齐聚长安。军略、明经、吏治三科并举，请陛下择一策以定国是。",
+		"choices": [
+			{
+				"text": " 军略 — 选拔将才，驰骋疆场",
+				"uniques": [
+					"Free [Knight] appears",
+					"Free [Horseman] appears"
+				]
+			},
+			{
+				"text": " 明经 — 研习经典，格物致知",
+				"uniques": [
+					"Gain [10] [Science]",
+					"Gain [10] [Science]<after turn number [30]>"
+				]
+			},
+			{
+				"text": " 吏治 — 选贤任能，充实府库",
+				"uniques": [
+					"Free [Worker] appears",
+					"Gain [50] [Gold]"
+				]
+			}
+		]
+	},
+	{
+		"name": "茶经问世",
+		"text": "竟陵人陆羽，字鸿渐，一生嗜茶，遍历名山，品泉问茶，著《茶经》三卷。此书系统总结了茶树种植、茶叶制作与煎茶之法，天下茶人为之震动。有大臣进言，请陛下召陆羽入朝，弘扬茶道，泽被万民。",
+		"presentation": "Alert",
+		"uniques": [
+			"Only available <for [Sheng Tang] Civilizations> <when above [1] [Tea]>",
+			"Unavailable <if tutorial [茶经问世] is completed>"
+		],
+		"choices": [
+			{
+				"text": "请茶圣入朝，弘扬茶道",
+				"uniques": [
+					"Mark tutorial [茶经问世] complete",
+					"Free [陆羽] appears",
+					"Gain [100] [Culture]"
+				]
+			}
+		]
+	},
+	{
+		"name": "削藩之议",
+		"text": "藩镇跋扈，朝纲不振。有臣进言，请调神策军巡视诸镇，宣天子威仪。神策军所到之处，藩镇莫不震悚，中央权威得以重整。",
+		"presentation": "Alert",
+		"uniques": [
+			"Only available <for [Late Tang] Civilizations>"
+		],
+		"choices": [
+			{
+				"text": "命神策军出巡，震慑藩镇",
+				"uniques": [
+					"Free [神策军] appears"
+				]
+			}
+		]
 	}
 ]

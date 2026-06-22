@@ -1,10 +1,23 @@
 [
 	{
 		"name": "军功授爵",
-		"uniques": ["[+50]% XP gained from combat"]
+		"uniques": [
+			"[+50]% XP gained from combat"
+		]
 	},
 	{
 		"name": "士子",
-		"uniques": ["Can build [学宫] improvements at a [+50]% rate"]
+		"uniques": [
+			"Can build [学宫] improvements at a [+50]% rate"
+		]
+	},
+	{
+		"name": "Imperial Guard",
+		"uniques": [
+			"[+20]% Strength <when defending>"
+		],
+		"unitTypes": [
+			"Melee"
+		]
 	}
 ]

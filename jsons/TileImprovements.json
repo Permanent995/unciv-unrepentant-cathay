@@ -2,26 +2,56 @@
 	{
 		"name": "学宫",
 		"uniqueTo": "Qindynasty",
-		"terrainsCanBeBuiltOn": [ "Plains" ],
-		"culture": 3,
-		"science": 4,
+		"terrainsCanBeBuiltOn": [
+			"Plains"
+		],
+		"culture": 1,
+		"science": 2,
 		"turnsToBuild": 6,
 		"techRequired": "Masonry",
-		"uniques": [ "[+2 Food] for each adjacent [Farm]", 
-		"Provides [1] [scholar]",
-		"Cannot be built on [Luxury resource] tiles" ]
+		"uniques": [
+			"[+2 Food] for each adjacent [Farm]",
+			"Provides [1] [scholar]",
+			"Cannot be built on [Luxury resource] tiles"
+		]
 	},
 	{
 		"name": "矿洞",
 		"uniqueTo": "Qindynasty",
-		"terrainsCanBeBuiltOn": [ "Desert" ],
-		"gold": 2,
+		"terrainsCanBeBuiltOn": [
+			"Desert"
+		],
+		"gold": 1,
 		"production": 3,
 		"turnsToBuild": 6,
 		"techRequired": "Mathematics",
-		"uniques": [ "Cannot be built on [Luxury resource] tiles", 
-		"[+1 Gold] <after discovering [Economics]>", 
-		"Cannot be built on [Flood plains] tiles" ]
+		"uniques": [
+			"Cannot be built on [Luxury resource] tiles",
+			"[+1 Gold] <after discovering [Economics]>",
+			"Cannot be built on [Flood plains] tiles"
+		]
+	},
+	{
+		"name": "Tea Plantation",
+		"uniqueTo": "Sheng Tang",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Hill"
+		],
+		"turnsToBuild": 7,
+		"techRequired": "Calendar",
+		"culture": 1,
+		"happiness": 1,
+		"uniques": [
+			"[+2 Gold]",
+			"Provides [1] [Tea]",
+			"[+1 Food] <after discovering [Fertilizer]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "唐朝是中国茶文化的发祥地。茶树种植和茶叶贸易成为重要的经济活动，茶树种植园是盛唐的重要经济支柱。"
+			}
+		]
 	}
-
 ]

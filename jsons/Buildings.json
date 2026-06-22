@@ -12,9 +12,11 @@
 		"happiness": 1,
 		"faith": 3,
 		"hurryCostModifier": 50,
-		"uniques": [ "Removes extra unhappiness from annexed cities", 
-		"Unsellable", 
-		"[+1 Happiness] per [5] population [in this city]"],
+		"uniques": [
+			"Removes extra unhappiness from annexed cities",
+			"Unsellable",
+			"[+1 Happiness] per [5] population [in this city]"
+		],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -26,12 +28,112 @@
 		"culture": 2,
 		"cost": 60,
 		"hurryCostModifier": 25,
-		"requiredResource":"scholar",
-		"uniques": [ "Destroyed when the city is captured", 
-		"[+1 Gold] per [2] population [in this city]",
-		 "Can build [all] improvements at a [+25]% rate",
-		 "Consumes [1] [scholar]",
-		 "[+10]% [Culture] [in this city]"],
+		"requiredResource": "scholar",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"[+1 Gold] per [2] population [in this city]",
+			"Can build [all] improvements at a [+25]% rate",
+			"Consumes [1] [scholar]",
+			"[+10]% [Culture] [in this city]"
+		],
 		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Imperial Academy",
+		"replaces": "University",
+		"uniqueTo": "Sheng Tang",
+		"cost": 160,
+		"maintenance": 2,
+		"science": 3,
+		"specialistSlots": {
+			"Scientist": 2
+		},
+		"requiredTech": "Education",
+		"uniques": [
+			"[+33]% [Science] [in this city]",
+			"[+2 Science] from [Jungle] tiles [in this city]",
+			"[+1 Culture] [in this city]"
+		],
+		"percentStatBonus": {
+			"Science": 33
+		},
+		"civilopediaText": [
+			{
+				"text": "唐朝的最高学府，隶属尚书省礼部，设六学二馆，招收国内外学生。日本遣唐使多在此学习中国文化，是当时世界上规模最大的高等学府。"
+			}
+		]
+	},
+	{
+		"name": "Great Wild Goose Pagoda",
+		"isWonder": true,
+		"cost": 185,
+		"maintenance": 2,
+		"faith": 3,
+		"culture": 4,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Free Great Person",
+			"[+3 Faith] [in this city]",
+			"[+4 Culture] [in this city]",
+			"[+1 Gold] from [Incense] tiles [in this city]",
+			"[+1 Science] from every [Temple]"
+		],
+		"civilopediaText": [
+			{
+				"text": "位于长安大慈恩寺内，为保存玄奘从印度带回的经卷而建。玄奘在此翻译佛经千余卷，是唐朝佛教文化的象征，也是丝绸之路上的标志性建筑。全球仅此一座。"
+			}
+		]
+	},
+	{
+		"name": "Grand Canal",
+		"isWonder": true,
+		"cost": 250,
+		"maintenance": 3,
+		"gold": 4,
+		"production": 3,
+		"requiredTech": "Engineering",
+		"uniques": [
+			"[+3 Food] [in this city]",
+			"[+3 Gold] from each Trade Route",
+			"Must be on [River]",
+			"[+2 Production] from [River] tiles [in this city]",
+			"[+1 Gold] from [River] tiles [in this city]",
+			"[+1] Movement <for [Civilian] units>"
+		],
+		"civilopediaText": [
+			{
+				"text": "隋唐大运河贯穿南北，全长两千余公里，连接了黄河流域和长江流域。运河的水闸系统代表了当时世界最先进的水利工程技术，极大促进了南北经济文化交流。仅能在有河流的城市建造。"
+			}
+		]
+	},
+	{
+		"name": "Fanzhen",
+		"cost": 0,
+		"uniques": [
+			"[-10]% [Gold] [in this city]",
+			"[-10]% [Production] [in this city]",
+			"Unsellable"
+		]
+	},
+	{
+		"name": "Pingfan",
+		"uniqueTo": "Late Tang",
+		"cost": 200,
+		"uniques": [
+			"Costs [1] [LegitimacyCounter]",
+			"Remove [Fanzhen] [in this city]",
+			"Instantly consumes [1] [SeparatismIndex]",
+			"[+3 Happiness] [in this city]",
+			"[+3 Production] [in this city]",
+			"[+3 Science] [in this city]",
+			"[+3 Culture] [in this city]",
+			"[+6 Gold] [in this city]"
+		],
+		"civilopediaText": [
+			{
+				"text": "晚唐宪宗力主削藩，平藩之策意在恢复中央权威。削平藩镇后，该城重归中央管辖，百业复苏，政令通达。"
+			}
+		],
+		"requiredTech": "Civil Service"
 	}
 ]

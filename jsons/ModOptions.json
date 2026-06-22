@@ -1,1 +1,16 @@
-{"modUrl":"https://github.com/Permanent995/unciv-unrepentant-cathay","defaultBranch":"main","author":"Permanent995","lastUpdated":"2026-06-16T12:00:00Z","modSize":7829992,"topics":["unciv-mod","unciv-mod-expansions"],"uniques":["Mod requires [Unciv] version [4.20.12] or later"]}
+{
+	"modUrl": "https://github.com/Permanent995/unciv-unrepentant-cathay",
+	"defaultBranch": "main",
+	"author": "Permanent995",
+	"lastUpdated": "2026-06-16T12:00:00Z",
+	"modSize": 7829992,
+	"topics": [
+		"unciv-mod",
+		"unciv-mod-expansions"
+	],
+	"uniques": [
+		"Mod requires [Unciv] version [4.20.12] or later",
+		"Suppress warning [validationWarning]",
+		"Cannot be used as permanent audiovisual mod"
+	]
+}

@@ -12,8 +12,12 @@
 		"hurryCostModifier": 15,
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": [ "Earn [100]% of killed [Military] unit's [Strength] as [Faith]" ],
-		"promotions": [ "Accuracy I" ],
+		"uniques": [
+			"Earn [100]% of killed [Military] unit's [Strength] as [Faith]"
+		],
+		"promotions": [
+			"Accuracy I"
+		],
 		"attackSound": "crossbow"
 	},
 	{
@@ -27,7 +31,72 @@
 		"hurryCostModifier": 15,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Steel",
-		"uniques": [ "[+150]% Strength <vs [Sword] units>", "[+15]% Strength <after discovering [Steel]>" ],
+		"uniques": [
+			"[+150]% Strength <vs [Sword] units>",
+			"[+15]% Strength <after discovering [Steel]>"
+		],
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Xuanjia Cavalry",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Sheng Tang",
+		"movement": 4,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": [
+			"[+15]% Strength <when fighting in [Open terrain] tiles>",
+			"[+1] Movement",
+			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"Shock I"
+		],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{
+				"text": "唐朝最精锐的重骑兵部队，由李世民亲自组建。全军身着黑色铠甲，战斗力极强，在虎牢关之战中以三千精骑大破窦建德十万大军，名震天下。"
+			}
+		]
+	},
+	{
+		"name": "陆羽",
+		"unitType": "Civilian",
+		"uniqueTo": "Sheng Tang",
+		"movement": 2,
+		"uniques": [
+			"Great Person - [All]",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Comment [茶圣陆羽，《茶经》作者，煎茶法创始人。一生嗜茶，精于茶道，使饮茶从解渴升华为高雅艺术。]"
+		],
+		"civilopediaText": [
+			{
+				"text": "唐朝茶圣，字鸿渐。一生嗜茶，精于茶道，遍历各地品泉问茶，著《茶经》三卷，系统总结了茶叶的种植、采摘、制作和品饮之法，被后世尊为茶圣。"
+			}
+		]
+	},
+	{
+		"name": "神策军",
+		"unitType": "Civilian",
+		"uniqueTo": "Late Tang",
+		"movement": 5,
+		"uniques": [
+			"Great Person - [All]",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Instantly provides [3] [LegitimacyCounter] <by consuming this unit>",
+			"Comment [唐朝禁卫神策军，宪宗倚重削藩。中使巡视藩镇，宣天子诏令，镇之以威、抚之以恩。]"
+		],
+		"civilopediaText": [
+			{
+				"text": "神策军原为陇右边军，安史之乱后入京成为禁军。唐宪宗时期，神策军是削藩的重要倚仗，天子以此震慑四方藩镇。"
+			}
+		]
 	}
 ]

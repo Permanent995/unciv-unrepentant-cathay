@@ -2,28 +2,52 @@
 	{
 		"name": "Qindynasty",
 		"leaderName": "始皇帝",
-		"startBias": ["Plains"],
+		"startBias": [
+			"Plains"
+		],
 		"preferredVictoryType": "Domination",
 		"startIntroPart1": "受命于天，既寿永昌！",
-
 		"declaringWar": "杂碎！！！",
 		"attacked": "朕在，当守土开疆，扫平四夷，护我社稷",
 		"defeated": "朕亡，亦将身化龙魂，佑我华夏永世不衰",
 		"introduction": "泰山不让土壤，故能成其大；河海不择细流，故能就其深",
-
 		"neutralHello": "朕为始皇帝",
-		"neutralLetsHearIt": [ "奏来", "但说无妨" ],
-		"neutralNo": [ "竖子安敢！", "荒谬至极！" ],
-		"neutralYes": [ "善", "可", "准" ],
+		"neutralLetsHearIt": [
+			"奏来",
+			"但说无妨"
+		],
+		"neutralNo": [
+			"竖子安敢！",
+			"荒谬至极！"
+		],
+		"neutralYes": [
+			"善",
+			"可",
+			"准"
+		],
 		"hateHello": "何事扰朕？",
 		"hateLetsHearIt": "速言，毋费朕之光阴！",
-		"hateNo": [ "尔敢戏朕？！", "痴人说梦！" ],
-		"hateYes": [ "准", "姑且如此", "退下罢" ],
-
+		"hateNo": [
+			"尔敢戏朕？！",
+			"痴人说梦！"
+		],
+		"hateYes": [
+			"准",
+			"姑且如此",
+			"退下罢"
+		],
 		"afterPeace": "战事已毕，或可共庆太平",
 		"tradeRequest": "朕有一桩交易，且听",
-		"outerColor": [255, 255, 0],
-		"innerColor": [255, 10, 10],
+		"outerColor": [
+			255,
+			255,
+			0
+		],
+		"innerColor": [
+			255,
+			10,
+			10
+		],
 		"uniqueName": "武秦",
 		"uniques": [
 			"[Military] units gain the [军功授爵] promotion",
@@ -66,6 +90,151 @@
 			"蓟县",
 			"襄平",
 			"阳乐"
+		]
+	},
+	{
+		"name": "Sheng Tang",
+		"adjective": [
+			"Sheng Tang",
+			"Chinese"
+		],
+		"leaderName": "Li Shimin",
+		"leaderTitle": "天可汗",
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "愿天可汗受天命、抚万民、开疆拓土，开创大唐盛世！",
+		"startIntroPart2": "太宗李世民，贞观之治的开创者。起兵晋阳，平定天下，被四方尊为「天可汗」。大唐疆域辽阔，三省六部制统御天下，各道州县万民归心。陛下，贞观之治的辉煌将由您来延续！",
+		"introduction": "Welcome, traveler, to the Great Tang! Under the reign of the Heavenly Khan, our empire flourishes like no other.",
+		"declaringWar": "The Son of Heaven has spoken — the divine punishment of the Great Tang shall descend upon you!",
+		"attacked": "You dare challenge the Heavenly Khan? The armies of the Great Tang will crush your insolence.",
+		"defeated": "Even the mightiest golden age must come to an end... the Great Tang falls, but its glory shall never be forgotten.",
+		"neutralHello": "Greetings from the Great Tang Empire. May peace and prosperity be with you.",
+		"hateHello": "State your business quickly.",
+		"tradeRequest": "The Great Tang is always open to trade. Shall we negotiate an agreement?",
+		"outerColor": [
+			204,
+			0,
+			0
+		],
+		"innerColor": [
+			255,
+			215,
+			0
+		],
+		"uniqueName": "贞观之治",
+		"uniques": [
+			"[+50]% Golden Age length",
+			"[+15]% Strength <for [Mounted] units>",
+			"[+15]% Production when constructing [Wonder] wonders [in all cities]",
+			"Triggers a [Imperial Examination] event <every [5] turns> <upon turn end> <after turn number [15]>",
+			"Triggers a [茶经问世] event <every [5] turns> <upon turn end> <after turn number [1]>"
+		],
+		"cities": [
+			"Chang'an",
+			"Luoyang",
+			"Taiyuan",
+			"Yangzhou",
+			"Chengdu",
+			"Guangzhou",
+			"Kaifeng",
+			"Hangzhou",
+			"Dunhuang",
+			"Jinling",
+			"Fuzhou",
+			"Jingzhou",
+			"Lanzhou",
+			"Xiangyang",
+			"Youzhou",
+			"Liangzhou",
+			"Quanzhou",
+			"Wuchang",
+			"Jiankang",
+			"Shazhou",
+			"Yizhou",
+			"Guazhou",
+			"Qizhou",
+			"Suzhou",
+			"Hongzhou"
+		],
+		"spyNames": [
+			"Di Renjie",
+			"Wei Zheng",
+			"Fang Xuanling",
+			"Du Ruhui",
+			"Zhangsun Wuji",
+			"Li Jing"
+		]
+	},
+	{
+		"name": "Late Tang",
+		"adjective": [
+			"Late Tang",
+			"Chinese"
+		],
+		"leaderName": "Tang Xianzong",
+		"leaderTitle": "唐宪宗",
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "大唐气数将尽，藩镇割据，社稷危矣！陛下当力挽狂澜，中兴大唐！",
+		"startIntroPart2": "唐宪宗李纯，晚唐最有作为的皇帝之一。安史之乱后，藩镇割据，朝政腐败，大唐已不复昔日辉煌。但您力主削藩，起用裴度、李愬等名臣，元和中兴指日可待。陛下，大厦将倾，唯您可扶！",
+		"introduction": "The Tang Dynasty still stands, though its golden days are behind it. Do not underestimate us.",
+		"declaringWar": "We may be weakened, but the spirit of Tang still burns. To arms!",
+		"attacked": "You think us easy prey? You shall learn the cost of underestimating the Tang.",
+		"defeated": "The sun has set on the Great Tang... may history remember us kindly.",
+		"neutralHello": "Greetings. The Tang Empire welcomes you, for now.",
+		"hateHello": "Speak. The Emperor's patience is not infinite.",
+		"tradeRequest": "Trade benefits all parties involved. Let us discuss terms.",
+		"outerColor": [
+			139,
+			0,
+			0
+		],
+		"innerColor": [
+			169,
+			169,
+			169
+		],
+		"uniqueName": "日薄西山",
+		"uniques": [
+			"[-15]% Strength <for [Military] units>",
+			"[-15]% Production when constructing [Military] units [in all cities]",
+			"[-50]% maintenance costs <for [Land] units>",
+			"[+2 Gold] from [River] tiles [in all cities]",
+			"Instantly provides [1] [SeparatismIndex] <upon conquering a city>",
+			"Instantly provides [1] [LegitimacyCounter] <upon founding a city>",
+			"[-5]% [Gold] [in all cities] <when above [5] [SeparatismIndex]>",
+			"[-5]% [Culture] [in all cities] <when above [10] [SeparatismIndex]>",
+			"[-5]% [Production] [in all cities] <when above [15] [SeparatismIndex]>",
+			"Triggers a [Imperial Examination] event <every [5] turns> <upon turn end> <after turn number [15]>",
+			"Triggers a [削藩之议] event <every [20] turns> <upon turn end> <after turn number [20]>"
+		],
+		"cities": [
+			"Chang'an",
+			"Luoyang",
+			"Taiyuan",
+			"Youzhou",
+			"Chengdu",
+			"Bianzhou",
+			"Yangzhou",
+			"Guangzhou",
+			"Weizhou",
+			"Fengxiang",
+			"Hezhong",
+			"Zhenzhou",
+			"Jiangling",
+			"Runzhou",
+			"Yuezhou",
+			"Hongzhou",
+			"Xuzhou",
+			"Jingzhou",
+			"Qizhou",
+			"Pizhou"
+		],
+		"spyNames": [
+			"Pei Du",
+			"Li Su",
+			"Wu Yuanheng",
+			"Liang Shouqian",
+			"Wang Shoucheng",
+			"Li Jifu"
 		]
 	}
 ]
