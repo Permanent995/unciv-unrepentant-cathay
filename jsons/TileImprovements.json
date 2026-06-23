@@ -7,7 +7,7 @@
 		],
 		"culture": 1,
 		"science": 2,
-		"turnsToBuild": 6,
+		"turnsToBuild": 10,
 		"techRequired": "Masonry",
 		"uniques": [
 			"[+2 Food] for each adjacent [Farm]",
@@ -22,7 +22,7 @@
 			"Desert"
 		],
 		"gold": 1,
-		"production": 3,
+		"production": 2,
 		"turnsToBuild": 6,
 		"techRequired": "Mathematics",
 		"uniques": [
@@ -39,14 +39,14 @@
 			"Grassland",
 			"Hill"
 		],
-		"turnsToBuild": 7,
+		"turnsToBuild": 8,
 		"techRequired": "Calendar",
 		"culture": 1,
-		"happiness": 1,
+		"happiness": 2,
 		"uniques": [
-			"[+2 Gold]",
+			"[+1 Gold]",
 			"Provides [1] [Tea]",
-			"[+1 Food] <after discovering [Fertilizer]>"
+			"[+2 Food] <after discovering [Fertilizer]>"
 		],
 		"civilopediaText": [
 			{

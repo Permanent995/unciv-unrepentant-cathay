@@ -53,7 +53,7 @@
 			{
 				"text": " 明经 — 研习经典，格物致知",
 				"uniques": [
-					"Gain [10] [Science]",
+					"Gain [20] [Science]",
 					"Gain [10] [Science]<after turn number [30]>"
 				]
 			},
@@ -97,6 +97,29 @@
 				"text": "命神策军出巡，震慑藩镇",
 				"uniques": [
 					"Free [神策军] appears"
+				]
+			}
+		]
+	},
+	{
+		"name": "忽里勒台大会",
+		"text": "草原各部落首领齐聚忽里勒台，商讨军国大事。您可以选择推举新将统领大军，或征调部落物资充实国库。",
+		"presentation": "Alert",
+		"uniques": [
+			"Only available <for [MongolEmpire] Civilizations>"
+		],
+		"choices": [
+			{
+				"text": "推举草原汗王",
+				"uniques": [
+					"Free [草原汗王] appears"
+				]
+			},
+			{
+				"text": "征调部落物资",
+				"uniques": [
+					"Gain [300] [Gold]",
+					"Gain [100] [Production]"
 				]
 			}
 		]

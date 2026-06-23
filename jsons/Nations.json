@@ -124,9 +124,9 @@
 		"uniques": [
 			"[+50]% Golden Age length",
 			"[+15]% Strength <for [Mounted] units>",
-			"[+15]% Production when constructing [Wonder] wonders [in all cities]",
-			"Triggers a [Imperial Examination] event <every [5] turns> <upon turn end> <after turn number [15]>",
-			"Triggers a [茶经问世] event <every [5] turns> <upon turn end> <after turn number [1]>"
+			"[+20]% Production when constructing [Wonder] wonders [in all cities]",
+			"Triggers a [Imperial Examination] event <every [5] turns> <upon turn end> <after turn number [65]>",
+			"Triggers a [茶经问世] event <every [5] turns> <upon turn end> <after turn number [40]>"
 		],
 		"cities": [
 			"Chang'an",
@@ -197,14 +197,14 @@
 			"[-15]% Strength <for [Military] units>",
 			"[-15]% Production when constructing [Military] units [in all cities]",
 			"[-50]% maintenance costs <for [Land] units>",
-			"[+2 Gold] from [River] tiles [in all cities]",
+			"[+3 Gold] from [River] tiles [in all cities]",
 			"Instantly provides [1] [SeparatismIndex] <upon conquering a city>",
 			"Instantly provides [1] [LegitimacyCounter] <upon founding a city>",
 			"[-5]% [Gold] [in all cities] <when above [5] [SeparatismIndex]>",
 			"[-5]% [Culture] [in all cities] <when above [10] [SeparatismIndex]>",
 			"[-5]% [Production] [in all cities] <when above [15] [SeparatismIndex]>",
-			"Triggers a [Imperial Examination] event <every [5] turns> <upon turn end> <after turn number [15]>",
-			"Triggers a [削藩之议] event <every [20] turns> <upon turn end> <after turn number [20]>"
+			"Triggers a [Imperial Examination] event <every [5] turns> <upon turn end> <after turn number [65]>",
+			"Triggers a [削藩之议] event <every [20] turns> <upon turn end> <after turn number [40]>"
 		],
 		"cities": [
 			"Chang'an",
@@ -235,6 +235,90 @@
 			"Liang Shouqian",
 			"Wang Shoucheng",
 			"Li Jifu"
+		]
+	},
+	{
+		"name": "MongolEmpire",
+		"leaderName": "Genghis Khan",
+		"leaderTitle": "成吉思汗",
+		"adjective": [
+			"Mongol",
+			"Mongolian"
+		],
+		"preferredVictoryType": "Domination",
+		"startBias": [
+			"Plains"
+		],
+		"startIntroPart1": "草原上的狼群，只有最强者才能统领！",
+		"startIntroPart2": "铁木真，草原上的雄主，统一蒙古各部，被尊为成吉思汗。您的铁蹄曾踏遍欧亚，建立了空前庞大的帝国。大汗，长生天庇佑着您，蒙古的铁骑将再次席卷天下！",
+		"introduction": "我是成吉思汗，蒙古的大汗。草原的子民向你致意。",
+		"declaringWar": "长生天在上！蒙古的铁骑将踏平你们！",
+		"attacked": "你们竟敢挑战大汗的权威？很好，那就让你们领教蒙古铁骑的厉害！",
+		"defeated": "长生天……我的子孙将继承我的遗志……",
+		"neutralHello": "草原的子民欢迎你。",
+		"hateHello": "有事快说，大汗没有耐心。",
+		"tradeRequest": "草原上的商路永远畅通。你带什么来交换？",
+		"outerColor": [
+			0,
+			51,
+			153
+		],
+		"innerColor": [
+			255,
+			215,
+			0
+		],
+		"uniqueName": "草原牧群",
+		"uniques": [
+			"[+3 Production] from every [Pasture]",
+			"[+15]% Strength <for [Mounted] units>",
+			"[+1] Movement <for [Mounted] units>",
+			"[-75]% maintenance costs <for [Land] units>",
+			"[+300]% [Horses] resource production",
+			"Gain [100] [Science] <upon conquering a city>",
+			"Triggers a [忽里勒台大会] event <every [35] turns> <upon turn end> <after turn number [35]>"
+		],
+		"cities": [
+			"哈拉和林",
+			"大都",
+			"上都",
+			"萨莱",
+			"别儿哥萨莱",
+			"阿力麻里",
+			"玉龙杰赤",
+			"不花剌",
+			"撒麻耳干",
+			"也里",
+			"谋夫",
+			"尼沙不儿",
+			"八剌沙衮",
+			"碎叶",
+			"讹答剌",
+			"塔剌思",
+			"别失八里",
+			"和林",
+			"和林格尔",
+			"察罕",
+			"塔拉斯",
+			"兀的",
+			"阔阔纳兀儿",
+			"的斤",
+			"因术克",
+			"喀什哈尔",
+			"和阗",
+			"塔里木",
+			"哈密",
+			"肃州"
+		],
+		"spyNames": [
+			"Jebe",
+			"Subutai",
+			"Muqali",
+			"Bo'orchu",
+			"Borokhula",
+			"Chilaun",
+			"Khubilai Noyan",
+			"Jelme"
 		]
 	}
 ]

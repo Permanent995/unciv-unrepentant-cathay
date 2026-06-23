@@ -5,7 +5,7 @@
 		"uniqueTo": "Qindynasty",
 		"movement": 3,
 		"strength": 18,
-		"rangedStrength": 24,
+		"rangedStrength": 20,
 		"replaces": "Crossbowman",
 		"cost": 120,
 		"requiredTech": "Machinery",
@@ -27,7 +27,7 @@
 		"replaces": "Longswordsman",
 		"movement": 3,
 		"strength": 14,
-		"cost": 75,
+		"cost": 90,
 		"hurryCostModifier": 15,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Steel",
@@ -43,12 +43,12 @@
 		"replaces": "Knight",
 		"uniqueTo": "Sheng Tang",
 		"movement": 4,
-		"strength": 25,
+		"strength": 26,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"uniques": [
-			"[+15]% Strength <when fighting in [Open terrain] tiles>",
+			"[+20]% Strength <when fighting in [Open terrain] tiles>",
 			"[+1] Movement",
 			"Can move after attacking",
 			"No defensive terrain bonus"
@@ -91,11 +91,67 @@
 			"Unbuildable",
 			"Cannot be purchased",
 			"Instantly provides [3] [LegitimacyCounter] <by consuming this unit>",
+			"Free [Horseman] appears <by consuming this unit>",
+			"Free [Horseman] appears <by consuming this unit>",
+			"Free [Horseman] appears <by consuming this unit>",
 			"Comment [唐朝禁卫神策军，宪宗倚重削藩。中使巡视藩镇，宣天子诏令，镇之以威、抚之以恩。]"
 		],
 		"civilopediaText": [
 			{
 				"text": "神策军原为陇右边军，安史之乱后入京成为禁军。唐宪宗时期，神策军是削藩的重要倚仗，天子以此震慑四方藩镇。"
+			}
+		]
+	},
+	{
+		"name": "草原汗王",
+		"unitType": "Mounted",
+		"uniqueTo": "MongolEmpire",
+		"movement": 6,
+		"strength": 30,
+		"cost": 190,
+		"requiredTech": "Theology",
+		"requiredResource": "Horses",
+		"unitNamesFrom": "Mongol Only Khans",
+		"uniques": [
+			"[+15]% Strength <when fighting in [Open terrain] tiles>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"征服者"
+		],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{
+				"text": "我之忽里勒台 -- 向全世界宣告！在天际之上,有许多伟大的光芒。在那天际,有太阳、月亮和星辰。然而,在大地上只能有一位可汗。我,便是那位可汗 -- 最伟大的万汗之汗。当我战胜了盘踞于脚下的毒蛇后,在全体部落召开的忽里勒台上,无人敢再对我提出异议。各部首领争相臣服,献上誓言,渴望追随我征服寰宇。第一缕晨光在地平线上破晓。我跨上战马,麾下的蒙古帝国大军齐声咆哮。我将得到全世界。"
+			}
+		]
+	},
+	{
+		"name": "把阿秃儿",
+		"unitType": "Archery",
+		"uniqueTo": "MongolEmpire",
+		"movement": 4,
+		"strength": 14,
+		"rangedStrength": 24,
+		"cost": 80,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+15]% Strength <when fighting in [Open terrain] tiles>"
+		],
+		"promotions": [
+			"Accuracy I"
+		],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{
+				"text": "把阿秃儿，蒙古语意为「勇士」「英雄」，是蒙古军中骑射精湛的精英弓骑兵。他们自幼在马上习射，能在全速奔驰中精准放箭，是成吉思汗征服欧亚大陆的战术核心。"
 			}
 		]
 	}

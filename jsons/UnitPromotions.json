@@ -8,16 +8,32 @@
 	{
 		"name": "士子",
 		"uniques": [
-			"Can build [学宫] improvements at a [+50]% rate"
+			"Can build [学宫] improvements at a [+20]% rate"
 		]
 	},
 	{
 		"name": "Imperial Guard",
 		"uniques": [
-			"[+20]% Strength <when defending>"
+			"[+25]% Strength <when defending>"
 		],
 		"unitTypes": [
 			"Melee"
+		]
+	},
+	{
+		"name": "征服者",
+		"uniques": [
+			"[+100]% XP gained from combat",
+			"[+100]% Strength <when attacking> <vs [Military] units>",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+			"[+100]% Strength <vs cities>",
+			"[-50]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+15]% Strength <when adjacent to a [Military] unit>"
+		],
+		"civilopediaText": [
+			{
+				"text": "一个庞大的帝国在草原崛起，仿佛一头恐怖的怪物渴求着战争的鲜血，而驾驭这头怪物的便是那唯一的可汗。从最底层的农民跃升至比我的所有封臣还要高贵 -- 他们都在低声呼唤着我的名字,低声诉说着我的力量,低声诉说着战争!帝国的力量由我来运用 -- 我也将运用它。向外冲击,就是对我的期望,用力量去夺取本该属于我的东西。有我的人民在我身后,我不会失败。"
+			}
 		]
 	}
 ]

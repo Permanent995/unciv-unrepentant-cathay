@@ -1,0 +1,11 @@
+[
+	{
+		"name": "长生天",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Pasture]",
+			"[+1 Culture] from every [Horses]",
+			"[+1 Food] from every [Pasture]"
+		]
+	}
+]

@@ -5,7 +5,7 @@
 		"uniqueTo": "Qindynasty",
 		"cityStrength": 6,
 		"cityHealth": 60,
-		"cost": 125,
+		"cost": 135,
 		"maintenance": 3,
 		"culture": 5,
 		"food": 3,
@@ -31,7 +31,7 @@
 		"requiredResource": "scholar",
 		"uniques": [
 			"Destroyed when the city is captured",
-			"[+1 Gold] per [2] population [in this city]",
+			"[+1 Gold] per [5] population [in this city]",
 			"Can build [all] improvements at a [+25]% rate",
 			"Consumes [1] [scholar]",
 			"[+10]% [Culture] [in this city]"
@@ -42,7 +42,7 @@
 		"name": "Imperial Academy",
 		"replaces": "University",
 		"uniqueTo": "Sheng Tang",
-		"cost": 160,
+		"cost": 90,
 		"maintenance": 2,
 		"science": 3,
 		"specialistSlots": {
@@ -52,7 +52,7 @@
 		"uniques": [
 			"[+33]% [Science] [in this city]",
 			"[+2 Science] from [Jungle] tiles [in this city]",
-			"[+1 Culture] [in this city]"
+			"[+3 Culture] [in this city]"
 		],
 		"percentStatBonus": {
 			"Science": 33
@@ -66,7 +66,7 @@
 	{
 		"name": "Great Wild Goose Pagoda",
 		"isWonder": true,
-		"cost": 185,
+		"cost": 165,
 		"maintenance": 2,
 		"faith": 3,
 		"culture": 4,
@@ -87,7 +87,7 @@
 	{
 		"name": "Grand Canal",
 		"isWonder": true,
-		"cost": 250,
+		"cost": 200,
 		"maintenance": 3,
 		"gold": 4,
 		"production": 3,
@@ -110,6 +110,9 @@
 		"name": "Fanzhen",
 		"cost": 0,
 		"uniques": [
+			"Automatically built in all cities where it is buildable",
+			"Unbuildable <in [in capital] cities>",
+			"Unbuildable <in cities with a [Pingfan]>",
 			"[-10]% [Gold] [in this city]",
 			"[-10]% [Production] [in this city]",
 			"Unsellable"
@@ -120,20 +123,42 @@
 		"uniqueTo": "Late Tang",
 		"cost": 200,
 		"uniques": [
-			"Costs [1] [LegitimacyCounter]",
+			"Instantly consumes [1] [LegitimacyCounter]",
 			"Remove [Fanzhen] [in this city]",
 			"Instantly consumes [1] [SeparatismIndex]",
+			"Unbuildable <when below [1] [LegitimacyCounter]>",
 			"[+3 Happiness] [in this city]",
 			"[+3 Production] [in this city]",
 			"[+3 Science] [in this city]",
 			"[+3 Culture] [in this city]",
-			"[+6 Gold] [in this city]"
+			"[+9 Gold] [in this city]"
 		],
 		"civilopediaText": [
 			{
-				"text": "晚唐宪宗力主削藩，平藩之策意在恢复中央权威。削平藩镇后，该城重归中央管辖，百业复苏，政令通达。"
+				"text": "晚唐宪宗力主削藩，重用裴度，平藩之策意在恢复中央权威。削平藩镇后，该城重归中央管辖，节度使由朝廷任命，百业复苏，政令通达。"
 			}
 		],
 		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "忽里勒台",
+		"uniqueTo": "MongolEmpire",
+		"cost": 40,
+		"maintenance": 0,
+		"faith": 2,
+		"production": 3,
+		"happiness": 3,
+		"requiredTech": "Philosophy",
+		"uniques": [
+			"[+50]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Faith] from [Pasture] tiles [in this city]",
+			"[+1 Gold] from [Horses] tiles [in this city]",
+			"[+2 Happiness] per [5] population [in this city]"
+		],
+		"civilopediaText": [
+			{
+				"text": "忽里勒台是蒙古部落的传统议事大会，由各部落首领参加，推举大汗、决定征伐大计。成吉思汗正是通过忽里勒台被推举为全蒙古的大汗。"
+			}
+		]
 	}
 ]
