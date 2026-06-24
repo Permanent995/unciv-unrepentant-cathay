@@ -109,7 +109,7 @@ NationIcons/Sheng Tang
   orig: 256, 256
   offset: 0, 0
   index: -1
-PromotionIcons/Imperial Guard
+UnitPromotionIcons/Imperial Guard
   rotate: false
   xy: 1324, 270
   size: 128, 128
@@ -207,7 +207,7 @@ NationIcons/MongolEmpire
   orig: 256, 256
   offset: 0, 0
   index: -1
-PromotionIcons/征服者
+UnitPromotionIcons/征服者
   rotate: false
   xy: 268, 828
   size: 120, 120

@@ -125,6 +125,7 @@
 			"[+50]% Golden Age length",
 			"[+15]% Strength <for [Mounted] units>",
 			"[+20]% Production when constructing [Wonder] wonders [in all cities]",
+			"[Melee] units gain the [Imperial Guard] promotion",
 			"Triggers a [Imperial Examination] event <every [5] turns> <upon turn end> <after turn number [65]>",
 			"Triggers a [茶经问世] event <every [5] turns> <upon turn end> <after turn number [40]>"
 		],
