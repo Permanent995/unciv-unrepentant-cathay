@@ -91,10 +91,8 @@
 			"Unbuildable",
 			"Cannot be purchased",
 			"Instantly provides [3] [LegitimacyCounter] <by consuming this unit>",
-			"Free [Horseman] appears <by consuming this unit>",
-			"Free [Horseman] appears <by consuming this unit>",
-			"Free [Horseman] appears <by consuming this unit>",
-			"Comment [唐朝禁卫神策军，宪宗倚重削藩。中使巡视藩镇，宣天子诏令，镇之以威、抚之以恩。]"
+			"Comment [唐朝禁卫神策军，宪宗倚重削藩。中使巡视藩镇，宣天子诏令，镇之以威、抚之以恩。]",
+			"Free [Horseman] appears <by consuming this unit>"
 		],
 		"civilopediaText": [
 			{
@@ -108,10 +106,9 @@
 		"uniqueTo": "MongolEmpire",
 		"movement": 6,
 		"strength": 30,
-		"cost": 190,
+		"cost": 220,
 		"requiredTech": "Theology",
 		"requiredResource": "Horses",
-		"unitNamesFrom": "Mongol Only Khans",
 		"uniques": [
 			"[+15]% Strength <when fighting in [Open terrain] tiles>",
 			"Can move after attacking",

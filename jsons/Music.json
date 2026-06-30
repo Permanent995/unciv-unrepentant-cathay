@@ -2,12 +2,12 @@
     "musics": [
         {
             "name": "CK3tiandi",
-            "type": "Theme",
+            "type": "War",
             "weight": 50
         },
         {
             "name": "CK3yuyiqu",
-            "type": "Theme",
+            "type": "Peace",
             "weight": 50
         }
     ]

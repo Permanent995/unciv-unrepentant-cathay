@@ -9,7 +9,6 @@
 		"unciv-mod-expansions"
 	],
 	"uniques": [
-		"Mod requires [Unciv] version [4.20.12] or later",
 		"Suppress warning [validationWarning]",
 		"Cannot be used as permanent audiovisual mod"
 	]

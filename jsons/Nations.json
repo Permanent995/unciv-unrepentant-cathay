@@ -201,11 +201,12 @@
 			"[+3 Gold] from [River] tiles [in all cities]",
 			"Instantly provides [1] [SeparatismIndex] <upon conquering a city>",
 			"Instantly provides [1] [LegitimacyCounter] <upon founding a city>",
-			"[-5]% [Gold] [in all cities] <when above [5] [SeparatismIndex]>",
-			"[-5]% [Culture] [in all cities] <when above [10] [SeparatismIndex]>",
-			"[-5]% [Production] [in all cities] <when above [15] [SeparatismIndex]>",
 			"Triggers a [Imperial Examination] event <every [5] turns> <upon turn end> <after turn number [65]>",
-			"Triggers a [削藩之议] event <every [20] turns> <upon turn end> <after turn number [40]>"
+			"Triggers a [削藩之议] event <every [20] turns> <upon turn end> <after turn number [40]>",
+			"Triggers a [局势检测] event <every [5] turns> <upon turn end> <after turn number [1]> <hidden from users>",
+			"Triggers a [临朝问政] event <every [15] turns> <upon turn end> <after turn number [1]> <hidden from users>",
+			"Triggers a [宦官专权] event <every [20] turns> <upon turn end> <when above [7] [SeparatismIndex]> <after turn number [40]> <hidden from users>",
+			"Triggers a [新朝征服] event <if [京城] is not constructed> <upon turn end> <after turn number [5]> <hidden from users>"
 		],
 		"cities": [
 			"Chang'an",

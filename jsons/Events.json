@@ -96,7 +96,9 @@
 			{
 				"text": "命神策军出巡，震慑藩镇",
 				"uniques": [
-					"Free [神策军] appears"
+					"Free [神策军] appears",
+					"Free [Horseman] appears",
+					"Free [Horseman] appears"
 				]
 			}
 		]
@@ -120,6 +122,151 @@
 				"uniques": [
 					"Gain [300] [Gold]",
 					"Gain [100] [Production]"
+				]
+			}
+		]
+	},
+	{
+		"name": "局势检测",
+		"text": "局势检测",
+		"uniques": [],
+		"choices": [
+			{
+				"text": "",
+				"uniques": [
+					"Only available <if [政通人和] is not constructed> <if [局势紧张] is not constructed> <if [群雄割据] is not constructed> <if [新朝征服] is not constructed>",
+					"Gain a free [政通人和] [in capital] <hidden from users>",
+					"Gain a free [京城] [in capital] <hidden from users>"
+				]
+			},
+			{
+				"text": "",
+				"uniques": [
+					"Only available <when above [3] [SeparatismIndex]> <if [政通人和] is constructed>",
+					"Gain a free [局势紧张] [in capital] <hidden from users>",
+					"Remove [政通人和] [in all cities] <hidden from users>"
+				]
+			},
+			{
+				"text": "",
+				"uniques": [
+					"Only available <when above [9] [SeparatismIndex]> <if [局势紧张] is constructed>",
+					"Gain a free [群雄割据] [in capital] <hidden from users>",
+					"Remove [局势紧张] [in all cities] <hidden from users>"
+				]
+			},
+			{
+				"text": "",
+				"uniques": [
+					"Only available <when below [4] [SeparatismIndex]> <if [局势紧张] is constructed>",
+					"Gain a free [政通人和] [in capital] <hidden from users>",
+					"Remove [局势紧张] [in all cities] <hidden from users>"
+				]
+			},
+			{
+				"text": "",
+				"uniques": [
+					"Only available <when below [10] [SeparatismIndex]> <if [群雄割据] is constructed>",
+					"Gain a free [局势紧张] [in capital] <hidden from users>",
+					"Remove [群雄割据] [in all cities] <hidden from users>"
+				]
+			},
+			{
+				"text": "",
+				"uniques": [
+					"Only available <if [京城] is not constructed>",
+					"Gain a free [新朝征服] [in capital] <hidden from users>",
+					"Remove [政通人和] [in all cities] <hidden from users>",
+					"Remove [局势紧张] [in all cities] <hidden from users>",
+					"Remove [群雄割据] [in all cities] <hidden from users>"
+				]
+			}
+		]
+	},
+	{
+		"name": "临朝问政",
+		"text": "朝议开始。当前天下大势，陛下当临朝问政，总揽全局。",
+		"uniques": [
+			"Only available <for [Late Tang] Civilizations>"
+		],
+		"choices": [
+			{
+				"text": "削藩平镇",
+				"uniques": [
+					"Only available <when above [0] [Gold]>",
+					"Gain [-100] [Gold]",
+					"Instantly provides [1] [LegitimacyCounter]"
+				]
+			},
+			{
+				"text": "赈灾安民",
+				"uniques": [
+					"Only available <when above [199] [Gold]>",
+					"Gain [-200] [Gold]",
+					"Instantly provides [1] [LegitimacyCounter]",
+					"Gain [5] [Happiness]"
+				]
+			},
+			{
+				"text": "调兵遣将",
+				"uniques": [
+					"Free [神策军] appears",
+					"Free [Horseman] appears",
+					"Free [Horseman] appears"
+				]
+			},
+			{
+				"text": "与藩镇妥协",
+				"uniques": [
+					"Only available <when above [4] [SeparatismIndex]> <when above [299] [Gold]>",
+					"Gain [-300] [Gold]",
+					"Instantly consumes [2] [SeparatismIndex]"
+				]
+			},
+			{
+				"text": "退朝",
+				"uniques": []
+			}
+		]
+	},
+	{
+		"name": "宦官专权",
+		"text": "宦官弄权，朝纲不振。有大臣密奏，请陛下决断。",
+		"uniques": [
+			"Only available <for [Late Tang] Civilizations>"
+		],
+		"choices": [
+			{
+				"text": "诛灭宦官",
+				"uniques": [
+					"Only available <when above [199] [Gold]>",
+					"Gain [-200] [Gold]",
+					"Instantly consumes [2] [SeparatismIndex]"
+				]
+			},
+			{
+				"text": "姑息纵容",
+				"uniques": [
+					"Instantly provides [1] [SeparatismIndex]",
+					"[-20]% [Gold] [in all cities] <for [10] turns>"
+				]
+			}
+		]
+	},
+	{
+		"name": "新朝征服",
+		"text": "京师沦陷！社稷危矣！新朝当立，重整河山。",
+		"presentation": "Alert",
+		"uniques": [
+			"Only available <for [Late Tang] Civilizations>",
+			"Unavailable <if tutorial [新朝征服] is completed>"
+		],
+		"choices": [
+			{
+				"text": "卧薪尝胆，重整旗鼓",
+				"uniques": [
+					"Mark tutorial [新朝征服] complete",
+					"Instantly provides [3] [LegitimacyCounter]"
 				]
 			}
 		]

@@ -160,5 +160,73 @@
 				"text": "忽里勒台是蒙古部落的传统议事大会，由各部落首领参加，推举大汗、决定征伐大计。成吉思汗正是通过忽里勒台被推举为全蒙古的大汗。"
 			}
 		]
+	},
+	{
+		"name": "政通人和",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Remove [局势紧张] [in all cities] <hidden from users>",
+			"Remove [群雄割据] [in all cities] <hidden from users>",
+			"Remove [新朝征服] [in all cities] <hidden from users>",
+			"Moves to new capital when capital changes <hidden from users>"
+		]
+	},
+	{
+		"name": "局势紧张",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Remove [政通人和] [in all cities] <hidden from users>",
+			"Remove [群雄割据] [in all cities] <hidden from users>",
+			"Remove [新朝征服] [in all cities] <hidden from users>",
+			"Moves to new capital when capital changes <hidden from users>",
+			"[-10]% [Gold] [in all cities]",
+			"[-10]% [Culture] [in all cities]"
+		]
+	},
+	{
+		"name": "群雄割据",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Remove [政通人和] [in all cities] <hidden from users>",
+			"Remove [局势紧张] [in all cities] <hidden from users>",
+			"Remove [新朝征服] [in all cities] <hidden from users>",
+			"Moves to new capital when capital changes <hidden from users>",
+			"[-20]% [Gold] [in all cities]",
+			"[-20]% [Culture] [in all cities]",
+			"[-20]% [Science] [in all cities]",
+			"[-10]% [Production] [in all cities]",
+			"[-10]% Strength <for [All] units>",
+			"Rebel units may spawn"
+		]
+	},
+	{
+		"name": "新朝征服",
+		"uniques": [
+			"Unbuildable",
+			"Unsellable",
+			"Remove [政通人和] [in all cities] <hidden from users>",
+			"Remove [局势紧张] [in all cities] <hidden from users>",
+			"Remove [群雄割据] [in all cities] <hidden from users>",
+			"Moves to new capital when capital changes <hidden from users>",
+			"[-33]% [Gold] [in all cities]",
+			"[-33]% [Culture] [in all cities]",
+			"[-33]% [Science] [in all cities]",
+			"[-25]% Strength <for [All] units>",
+			"Cannot build [Settler] units",
+			"Rebel units may spawn"
+		]
+	},
+	{
+		"name": "京城",
+		"uniques": [
+			"Automatically built in all cities where it is buildable",
+			"Unbuildable <in cities without a [Palace]>",
+			"Destroyed when the city is captured",
+			"Unsellable",
+			"Unbuildable <hidden from users>"
+		]
 	}
 ]
